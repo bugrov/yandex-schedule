@@ -5,13 +5,13 @@
 Поддерживается установка с помощью [менеджера пакетов](https://getcomposer.org).
 
 ```
-$ composer require bugrov/yandex-schedule
+$ composer require bugrov/yandex-schedule dev-main
 ```
 
 Или
 
 ```
-$ php composer.phar require bugrov/yandex-schedule
+$ php composer.phar require bugrov/yandex-schedule dev-main
 ```
 
 ## Как подключиться к Яндекс.Расписаниям
@@ -165,7 +165,7 @@ public static function getScheduleBetweenStations(string $from, string $to, stri
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getScheduleBetweenStations('c146', 'c213'));
+$res = Transport::getScheduleBetweenStations('c146', 'c213');
 ```
 
 ### Метод getScheduleOfFlightsByStation
@@ -210,7 +210,7 @@ public static function getScheduleOfFlightsByStation(string $station, string $sy
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getScheduleOfFlightsByStation('s9600213'));
+$res = Transport::getScheduleOfFlightsByStation('s9600213');
 ```
 
 ### Метод getListOfStations
@@ -239,7 +239,7 @@ public static function getListOfStations(string $uid, string $showSystems = null
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getListOfStations('932X_1_2'));
+$res = Transport::getListOfStations('932X_1_2');
 ```
 
 ### Метод getListOfNearestStations
@@ -289,7 +289,7 @@ public static function getListOfNearestStations(string $lat, string $lng, int $d
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getListOfNearestStations('50.440046', '40.4882367', 50));
+$res = Transport::getListOfNearestStations('50.440046', '40.4882367', 50);
 ```
 
 ### Метод getNearestCity
@@ -308,7 +308,7 @@ public static function getNearestCity(string $lat, string $lng, int $distance = 
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getNearestCity('50.440046', '40.4882367', 50));
+$res = Transport::getNearestCity('50.440046', '40.4882367', 50);
 ```
 
 ### Метод getCarrierInfo
@@ -331,7 +331,7 @@ public static function getCarrierInfo(string $code, string $system = Transport::
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getCarrierInfo('TK', Transport::SYSTEM_TYPE_IATA));
+$res = Transport::getCarrierInfo('TK', Transport::SYSTEM_TYPE_IATA);
 ```
 
 ### Метод getAllAvailableStations
@@ -346,7 +346,7 @@ public static function getAllAvailableStations()
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getAllAvailableStations());
+$res = Transport::getAllAvailableStations();
 ```
 
 ### Метод getCopyright
@@ -361,5 +361,5 @@ public static function getCopyright()
 
 ```php
 Transport::setApiKey('your-api-key');
-dump(Transport::getCopyright());
+$res = Transport::getCopyright();
 ```
