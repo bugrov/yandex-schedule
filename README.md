@@ -11,7 +11,7 @@ $ composer require bugrov/yandex-schedule
 Или
 
 ```
-$ php composer.phar require arhitector/yandex-schedule
+$ php composer.phar require bugrov/yandex-schedule
 ```
 
 ## Как подключиться к Яндекс.Расписаниям
