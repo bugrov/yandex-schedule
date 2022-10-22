@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b593988b746a0aee1d71ba4be5753cf6",
+    "content-hash": "0edd0c4bcb485eed089ad5fc093c1ee6",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -433,7 +433,9 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
+        }
+    ],
+    "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.26.0",
@@ -602,7 +604,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "5.4.x-dev",
+            "version": "v5.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -671,7 +673,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/5.4"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.14"
             },
             "funding": [
                 {
@@ -690,12 +692,9 @@
             "time": "2022-10-07T08:01:20+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "symfony/var-dumper": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
