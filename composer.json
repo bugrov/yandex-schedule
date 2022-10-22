@@ -1,0 +1,23 @@
+{
+    "name": "bugrov/yandex-schedule",
+    "description": "PHP SDK Яндекс.Расписаний",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BugrovWeb\\YandexSchedule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bugrov",
+            "email": "a.bugrov@intensa.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.0",
+        "symfony/var-dumper": "5.4.x-dev",
+        "php": ">=7.2"
+    }
+}

@@ -1,0 +1,17 @@
+<?php
+
+use BugrovWeb\YandexSchedule\Transport;
+
+require './vendor/autoload.php';
+
+Transport::setApiKey('2afb1cdb-1d8f-4261-9367-bc25cf8413fe');
+
+//dump(Transport::getFormat(), Transport::getLang());
+//dump(Transport::getScheduleBetweenStations('c146', 'c213'));
+//dump(Transport::getScheduleOfFlightsByStation('s9600213'));
+//dump(Transport::getListOfStations('038AA_tis'));
+//dump(Transport::getListOfNearestStations('50.440046', '40.4882367', 50));
+//dump(Transport::getNearestCity('50.440046', '40.4882367', 50));
+dump(Transport::getCarrierInfo('TK', Transport::SYSTEM_TYPE_IATA));
+//dump(Transport::getAllAvailableStations());
+//dump(Transport::getCopyright());
