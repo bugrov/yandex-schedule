@@ -1,7 +1,7 @@
 {
     "name": "bugrov/yandex-schedule",
     "description": "PHP SDK Яндекс.Расписаний",
-    "keywords": ["yandex", "schedule"],
+    "keywords": ["yandex", "schedule", "яндекс", "расписания", "yandex schedule", "яндекс расписания"],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -19,5 +19,10 @@
         "guzzlehttp/guzzle": "7.0",
         "symfony/var-dumper": "5.4.x-dev",
         "php": ">=7.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "v1.0"
+        }
     }
 }
