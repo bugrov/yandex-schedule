@@ -19,10 +19,5 @@
         "guzzlehttp/guzzle": "7.0",
         "symfony/var-dumper": "5.4.x-dev",
         "php": ">=7.4"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "v1.0"
-        }
     }
 }
