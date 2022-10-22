@@ -223,7 +223,7 @@ public static function getListOfStations(string $uid, string $showSystems = null
                             string $from = null, string $to = null)
 ```
 
-- `uid` - Идентификатор нитки в Яндекс.Расписаниях
+- `$uid` - Идентификатор нитки в Яндекс.Расписаниях
 - `$showSystems` - Система кодирования, в которой необходимо получить коды станций (в элементе ответа codes, вложенном в
   элемент station). Необязательное. Возможные значения:
     - `yandex` либо `Transport::SYSTEM_TYPE_YANDEX`
