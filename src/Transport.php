@@ -35,6 +35,8 @@ class Transport
     const TRANSPORT_TYPE_SUBURBAN = 'suburban';
     const TRANSPORT_TYPE_BUS = 'bus';
     const TRANSPORT_TYPE_WATER = 'water';
+    const TRANSPORT_TYPE_SEA = 'sea';
+    const TRANSPORT_TYPE_RIVER = 'river';
     const TRANSPORT_TYPE_HELICOPTER = 'helicopter';
 
     /**
