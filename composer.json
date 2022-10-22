@@ -14,7 +14,7 @@
             "email": "a.bugrov@intensa.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "7.0",
         "symfony/var-dumper": "5.4.x-dev",
