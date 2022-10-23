@@ -75,9 +75,9 @@ class Client
     /**
      * Возвращает установленный API-ключ
      *
-     * @return string API ключ
+     * @return string|null API ключ
      */
-    public function getApiKey(): string
+    public function getApiKey(): ?string
     {
         return $this->key;
     }

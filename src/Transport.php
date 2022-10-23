@@ -91,9 +91,14 @@ class Transport
      * Возвращает установленный API-ключ
      *
      * @return string
+     * @throws \Exception
      */
     public static function getApiKey(): string
     {
+        if (!is_string(Client::getInstance()->getApiKey())) {
+            throw new \Exception('API ключ не задан');
+        }
+
         return Client::getInstance()->getApiKey();
     }
 
